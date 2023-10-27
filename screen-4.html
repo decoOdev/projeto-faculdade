@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro de Usuário</title>
+    <link rel="stylesheet" href="./screen-4.css">
+</head>
+<body>
+    <h1><strong>Cadastro de Usuário</strong></h1>
+    <form action="">
+        <div class="form-group">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="data_nascimento">Data de Nascimento:</label><br>
+            <input type="date" id="data_nascimento" name="data_nascimento" required>
+        </div>
+        <div class="form-group">
+            <label>Sexo:</label><br>
+            <div class="form-group">
+                <input type="radio" id="sexo" name="sexo">
+                <label for="sexo">Masculino</label>
+                <input type="radio" id="sexo" name="sexo">
+                <label for="sexo">Feminino</label>
+                
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="endereco">Endereço:</label><br>
+            <input type="text" id="endereco" name="endereco" required>
+        </div>
+        <div class="form-group">
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+                <option value="">Selecione o Estado</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </div>
+        <div class="form-group checkbox-group">
+            <label>Categorias de Interesse:</label><br>
+            <input type="checkbox" id="praia" name="tipos_viagem[]" value="praia">
+            <label for="praia">Praia</label>
+            <input type="checkbox" id="campo" name="tipos_viagem[]" value="campo">
+            <label for="campo">Campo</label>
+            <input type="checkbox" id="nacionais" name="tipos_viagem[]" value="nacionais">
+            <label for="nacionais">Nacionais</label>
+            <input type="checkbox"  id="internacionais" name="tipos_viagem[]" value="internacionais">
+            <label for="internacionais">Internacionais</label>
+            <input type="checkbox" id="serra" name="tipos_viagem[]" value="serra">
+            <label for="serra">Serra</label>
+            <input type="checkbox" id="cidade" name="tipos_viagem[]" value="cidade">
+            <label for="cidade">Cidade</label>
+        </div>
+        <div class="form-group">
+            <label for="login">Login:</label><br>
+            <input type="text" id="login" name="login" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password" required>
+        </div>
+        
+        <div class="form-group">
+            <input type="submit" value="Salvar">
+            <input type="reset" value="Limpar">
+        </div>
+      
+
+    </form>
+</body>
+</html>
