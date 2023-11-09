@@ -2,149 +2,673 @@
 <html lang="pt-br">
   <head>
     <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./screen-1.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./screen-1.css" />
     <title>JFK Viagens</title>
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">JFK</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Minha Conta</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contato</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Pacotes
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Praia</a>
-                    <a class="dropdown-item" href="#">Serra</a>
-                    <a class="dropdown-item" href="#">Cidade</a>
-                    <a class="dropdown-item" href="#">Campo</a>
-                    <a class="dropdown-item" href="#">Internacionais</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
-
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">JFK</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Alterna navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(Página atual)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./screen-2.html">Minha Conta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Pacotes
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Praia</a>
+                <a class="dropdown-item" href="#">Serra</a>
+                <a class="dropdown-item" href="#">Cidade</a>
+                <a class="dropdown-item" href="#">Campo</a>
+                <a class="dropdown-item" href="#">Internacionais</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <section>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="./images/orlando.jpg" alt="Primeiro Slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./images/novayork1.jpg" alt="Segundo Slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./images/paris1.jpg" alt="Terceiro Slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Próximo</span>
-            </a>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="./images/orlando.jpg"
+              alt="Primeiro Slide"
+            />
           </div>
-
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/novayork1.jpg"
+              alt="Segundo Slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/paris1.jpg"
+              alt="Terceiro Slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
     </section>
 
     <section>
-        <div class="class container">
-            <h1>Nossos Pacotes - Praias</h1>
-            <div class="class row">
-                <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal" data-target="#ExemploModalCentralizado">
-                    <img src="./images/joaopessoa.webp" class="img-responsive">
-                    João Pessoa</a>
-            </div>
-            <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal" data-target="#ExemploModalCentralizado">
-                <img src="./images/floripa.jpg" class="img-responsive">
-                Florianópolis</a>
-            </div>
-            <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal" data-target="#ExemploModalCentralizado">
-                <img src="./images/balcamboriu.webp" class="img-responsive">
-                Balneário Camboriú</a>
-            </div>
-            <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal" data-target="#ExemploModalCentralizado">
-                <img src="./images/salvador.jpg" class="img-responsive">
-                Salvador</a>
-            </div>
-            <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal" data-target="#ExemploModalCentralizado">
-                <img src="./images/maceio.jpg" class="img-responsive">
-                Maceió</a>
-            </div>
-            <div class="col-md-4 col-sm-6 pacote"><a href="#" class="link-pacote" data-toggle="modal" data-target="#ExemploModalCentralizado">
-                <img src="./images/natal.jpg" class="img-responsive">
-                Natal</a>
-            </div>
-
-            </div>
+      <div class="class container">
+        <h1>Nossos Pacotes - Praias</h1>
+        <div class="class row">
+          <div class="col-md-4 col-sm-6 pacote">
+            <a
+              href="#"
+              class="link-pacote"
+              data-toggle="modal"
+              data-target="#modalJoaoPessoa"
+            >
+              <img src="./images/joaopessoa.webp" class="img-responsive" />
+              João Pessoa</a
+            >
+          </div>
+          <div class="col-md-4 col-sm-6 pacote">
+            <a
+              href="#"
+              class="link-pacote"
+              data-toggle="modal"
+              data-target="#modalFloripa"
+            >
+              <img src="./images/floripa.jpg" class="img-responsive" />
+              Florianópolis</a
+            >
+          </div>
+          <div class="col-md-4 col-sm-6 pacote">
+            <a
+              href="#"
+              class="link-pacote"
+              data-toggle="modal"
+              data-target="#modalBC"
+            >
+              <img src="./images/balcamboriu.webp" class="img-responsive" />
+              Balneário Camboriú</a
+            >
+          </div>
+          <div class="col-md-4 col-sm-6 pacote">
+            <a
+              href="#"
+              class="link-pacote"
+              data-toggle="modal"
+              data-target="#modalSalvador"
+            >
+              <img src="./images/salvador.jpg" class="img-responsive" />
+              Salvador</a
+            >
+          </div>
+          <div class="col-md-4 col-sm-6 pacote">
+            <a
+              href="#"
+              class="link-pacote"
+              data-toggle="modal"
+              data-target="#modalMaceio"
+            >
+              <img src="./images/maceio.jpg" class="img-responsive" />
+              Maceió</a
+            >
+          </div>
+          <div class="col-md-4 col-sm-6 pacote">
+            <a
+              href="#"
+              class="link-pacote"
+              data-toggle="modal"
+              data-target="#modalNatal"
+            >
+              <img src="./images/natal.jpg" class="img-responsive" />
+              Natal</a
+            >
+          </div>
         </div>
-      
-
+      </div>
     </section>
-        <!-- Botão para acionar modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado">
-    
-  </button>
-  
-  
-  <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="TituloModalCentralizado">Título do modal</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-          <button type="button" class="btn btn-primary">Salvar mudanças</button>
+    <!-- Modal Salvador -->
+    <div
+      class="modal fade"
+      id="modalSalvador"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalLongoExemplo"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalLongoExemplo">
+              Informações Sobre a Viagem
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p><strong>
+              Descubra a Magia de Salvador - Seu Destino de Sonho na Bahia! Você
+              já sonhou em explorar um lugar onde a cultura, a história e as
+              praias paradisíacas se unem para criar uma experiência única de
+              viagem? Salvador, na Bahia, é o lugar perfeito para você! Cultura
+              e Herança Afro-brasileira Salvador é uma cidade mágica, onde os
+              ritmos envolventes do samba e do axé são uma trilha sonora
+              constante. A cidade é um caldeirão cultural, com uma rica herança
+              afro-brasileira. Você se sentirá imerso na atmosfera festiva das
+              ruas, onde os tambores ecoam e as danças contam histórias de
+              séculos de tradição. História e Arquitetura Colonial Explore o
+              Pelourinho, o coração histórico da cidade, com suas ruas de
+              paralelepípedos, casarões coloridos e igrejas barrocas. Salvador é
+              uma cidade onde o passado e o presente se encontram em cada
+              esquina. Aprecie o rico legado colonial e maravilhe-se com a
+              arquitetura magnífica enquanto caminha pelas ruas desse Patrimônio
+              Mundial da UNESCO. Culinária de Dar Água na Boca A gastronomia
+              baiana é uma das mais saborosas do Brasil. Delicie-se com o
+              acarajé, o vatapá, o abará e muitos outros pratos típicos que
+              fazem a culinária local se destacar. Não se esqueça de
+              experimentar o famoso moqueca de peixe, uma verdadeira explosão de
+              sabores. Praias Deslumbrantes Relaxe nas praias de Salvador, como
+              a Praia da Barra, com suas águas calmas e vista para o Farol da
+              Barra, ou a Praia de Itapuã, que inspirou a famosa canção de
+              Vinícius de Moraes. Desfrute do sol tropical e mergulhe nas águas
+              cristalinas do litoral baiano. Carnaval Inesquecível Se sua viagem
+              coincidir com o Carnaval, prepare-se para uma experiência
+              verdadeiramente espetacular. O Carnaval de Salvador é uma das
+              maiores festas do mundo, com trios elétricos, blocos de rua e
+              muita música ao vivo. Não perca a chance de participar dessa
+              celebração única. Elevador Lacerda e a Baía de Todos os Santos
+              Suba no Elevador Lacerda e aprecie as vistas panorâmicas da Baía
+              de Todos os Santos. É um momento mágico para tirar fotos e
+              contemplar a majestosa paisagem que se estende diante de você.
+              Salvador é um destino cheio de energia, onde a alegria é
+              contagiante, e cada esquina é uma descoberta. Não perca a
+              oportunidade de vivenciar essa experiência única. Reserve seu
+              pacote de viagem agora e prepare-se para uma aventura inesquecível
+              em Salvador, Bahia!
+            </p></strong>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Voltar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  
 
-    <footer>
-        JFK - Todos os Direitos Reservados
+    <!-- Modal João Pessoa -->
+    <div
+      class="modal fade"
+      id="modalJoaoPessoa"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalLongoExemplo"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalLongoExemplo">
+              Informações Sobre a Viagem
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p><strong>
+              Encante-se com João Pessoa - O Paraíso do Nordeste Brasileiro! Se
+              você procura um destino onde o sol brilha o ano inteiro, praias de
+              areias douradas se estendem até onde os olhos podem ver e a
+              cultura local é cativante, João Pessoa, na Paraíba, é o lugar
+              perfeito para sua próxima aventura! Praias de Cartão Postal Em
+              João Pessoa, as praias são verdadeiros cartões-postais. A famosa
+              Praia de Tambaú é uma das joias da cidade, com suas águas calmas e
+              piscinas naturais formadas durante a maré baixa. Relaxe sob o sol
+              tropical, mergulhe nas águas mornas e saboreie frutos do mar
+              frescos em quiosques à beira-mar. Pôr do Sol Inesquecível Não
+              perca o famoso pôr do sol da Praia do Jacaré. Todos os dias,
+              músicos locais tocam o Bolero de Ravel enquanto o sol se põe no
+              horizonte. É uma experiência única e romântica que você lembrará
+              para sempre. Centro Histórico Charmoso O Centro Histórico de João
+              Pessoa é um tesouro, com edifícios coloniais bem preservados,
+              igrejas antigas e praças encantadoras. Passeie pelas ruas de
+              paralelepípedos e sinta-se transportado de volta no tempo.
+              Culinária Saborosa A culinária paraibana é deliciosa. Não deixe de
+              experimentar pratos tradicionais, como o famoso "bolo de rolo" e o
+              "macaxeira com carne de sol." A gastronomia local é rica em
+              sabores e ingredientes frescos. Cultura e Hospitalidade Os
+              habitantes de João Pessoa são conhecidos por sua hospitalidade
+              calorosa e amigável. Explore a cultura local, visite feiras de
+              artesanato, e aprenda sobre as tradições da região. Natureza
+              Intocada A Paraíba é abençoada com paisagens naturais
+              deslumbrantes. A região oferece oportunidades para explorar
+              trilhas, visitar reservas naturais e desfrutar de um ambiente
+              tranquilo e intocado. Vida Noturna Vibrante À noite, João Pessoa
+              ganha vida com bares, restaurantes e casas de shows. Experimente a
+              música ao vivo e a dança local em locais animados pela cidade.
+              João Pessoa é um tesouro escondido no Nordeste do Brasil,
+              esperando para ser descoberto. Reserve seu pacote de viagem agora
+              e prepare-se para se apaixonar por essa cidade encantadora e suas
+              maravilhas naturais. João Pessoa aguarda para criar memórias
+              inesquecíveis em sua próxima viagem!
+            </p></strong>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Voltar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    </footer>
+    <!-- Modal Florianópolis -->
+    <div
+      class="modal fade"
+      id="modalFloripa"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalLongoExemplo"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalLongoExemplo">
+              Informações Sobre a Viagem
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p><strong>
+              Explore a Ilha da Magia - Descubra Florianópolis, a Pérola de
+              Santa Catarina! Florianópolis é a ilha encantada que combina
+              praias deslumbrantes, cultura vibrante e natureza exuberante. Se
+              você está em busca de uma viagem única, este é o destino dos seus
+              sonhos! Praias Paradisíacas Florianópolis é famosa por suas praias
+              deslumbrantes, cada uma com seu próprio charme. Se você é um
+              amante do surfe, a Praia da Joaquina é um paraíso. Se busca águas
+              calmas e tranquilas, a Praia do Campeche é ideal para relaxar. E a
+              Praia de Jurerê Internacional é famosa por sua atmosfera elegante.
+              Ilha da Magia Conhecida como a "Ilha da Magia," Florianópolis
+              abriga uma cultura única e uma atmosfera encantadora. Explore o
+              centro histórico com suas construções coloniais e fortalezas
+              antigas. Não deixe de visitar a Ponte Hercílio Luz, um ícone da
+              cidade. Gastronomia Saborosa A culinária de Florianópolis é uma
+              mistura de sabores da terra e do mar. Experimente pratos de frutos
+              do mar frescos, como o "camarão na moranga" e a "sequência de
+              camarão." Não esqueça de provar a ostra nativa da região. Natureza
+              Preservada A natureza é uma parte intrínseca de Florianópolis.
+              Visite a Lagoa da Conceição, onde você pode fazer trilhas,
+              praticar esportes aquáticos e apreciar vistas deslumbrantes. A
+              Ilha de Santa Catarina é um paraíso para os amantes da natureza.
+              Atividades para Todos Florianópolis oferece uma variedade de
+              atividades, desde esportes aquáticos e trilhas até passeios de
+              barco e vida noturna animada. Há algo para todos os gostos e
+              idades. Carnaval Mágico O Carnaval de Florianópolis é uma das
+              celebrações mais emocionantes do Brasil. Desfile em escolas de
+              samba, blocos de rua e festas animadas em toda a ilha.
+              Florianópolis é o lugar onde a beleza natural encontra a cultura
+              vibrante. Não perca a oportunidade de explorar essa ilha mágica.
+              Reserve seu pacote de viagem agora e prepare-se para uma aventura
+              única em Florianópolis!
+            </p></strong>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Voltar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Modal BC -->
+    <div
+      class="modal fade"
+      id="modalBC"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalLongoExemplo"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalLongoExemplo">
+              Informações Sobre a Viagem
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p><strong>
+              Viva o Encanto de Balneário Camboriú - Seu Refúgio de Praias e
+              Sofisticação! Balneário Camboriú é um tesouro catarinense que
+              combina praias deslumbrantes, modernidade e entretenimento de
+              classe mundial. Se você está em busca de um destino de férias
+              sofisticado e cheio de diversão, esta é a escolha perfeita! Praias
+              de Cartão Postal As praias de Balneário Camboriú são algumas das
+              mais belas do Brasil. A Praia Central é o ponto de encontro, com
+              sua extensa faixa de areia dourada e um calçadão vibrante. Para
+              uma experiência tranquila, visite a Praia de Laranjeiras ou a
+              Praia de Taquarinhas. Arranha-céus e Modernidade A cidade é
+              conhecida por seus arranha-céus que se erguem majestosamente ao
+              longo da orla. Suba no teleférico para ter vistas panorâmicas
+              espetaculares da cidade e da costa. Balneário Camboriú é uma
+              combinação única de natureza e modernidade. Gastronomia de Classe
+              Mundial A culinária em Balneário Camboriú é um verdadeiro
+              destaque. Desfrute de restaurantes sofisticados que oferecem desde
+              pratos de frutos do mar frescos até cozinha internacional. A vida
+              noturna é agitada, com bares elegantes e casas noturnas animadas.
+              Passeios e Atrações A cidade oferece uma variedade de atividades,
+              desde passeios de barco para observação de baleias até esportes
+              aquáticos emocionantes. Não deixe de explorar o Parque Unipraias,
+              com suas trilhas e atividades de aventura. Parque Beto Carrero
+              World A apenas uma curta viagem de Balneário Camboriú, o Parque
+              Beto Carrero World é um dos maiores parques de diversões da
+              América do Sul. É um destino imperdível para famílias e amantes de
+              parques temáticos. Vida Noturna Agitada A vida noturna de
+              Balneário Camboriú é movimentada e diversificada. Há opções para
+              todos os gostos, desde bares de praia descontraídos até festas em
+              clubes de alto padrão. Balneário Camboriú é o local onde o luxo se
+              encontra com a beleza natural, criando uma experiência única de
+              viagem. Reserve seu pacote de viagem agora e esteja pronto para
+              desfrutar de toda a sofisticação e diversão que esta cidade
+              litorânea tem a oferecer!
+            </p></strong>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Voltar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-   
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Modal Maceió -->
+    <div
+      class="modal fade"
+      id="modalMaceio"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalLongoExemplo"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalLongoExemplo">
+              Informações Sobre a Viagem
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p><strong>
+              Maravilhe-se com Maceió - O Paraíso das Águas Claras do Nordeste!
+              Maceió é um tesouro no coração do Nordeste do Brasil, onde as
+              águas cristalinas encontram praias de areia branca e uma cultura
+              acolhedora. Se você está em busca de um destino de praia de tirar
+              o fôlego e experiências culturais únicas, Maceió é o lugar
+              perfeito para sua próxima aventura! Praias de Águas Calmas Maceió
+              é conhecida por suas praias de águas cristalinas e piscinas
+              naturais formadas por recifes de corais. A Praia de Pajuçara é um
+              destaque, onde você pode fazer passeios de jangada para as
+              piscinas naturais e explorar a vida marinha. As praias urbanas de
+              Ponta Verde e Jatiúca oferecem uma infraestrutura turística
+              completa. Cultura e Gastronomia Alagoana A cultura em Maceió é
+              rica e acolhedora. Explore o centro histórico da cidade com suas
+              igrejas coloniais e edifícios preservados. A gastronomia alagoana
+              é uma delícia, com pratos como o "sururu com macaxeira" e o
+              "camarão na moranga" sendo verdadeiros destaques. Natureza
+              Intocada Além das praias, Maceió oferece oportunidades para
+              explorar a natureza intocada. Visite a Lagoa Mundaú e a Lagoa do
+              Roteiro, onde você pode fazer passeios de barco e apreciar vistas
+              deslumbrantes. Vida Noturna e Música ao Vivo À noite, Maceió ganha
+              vida com bares animados e casas de shows que oferecem música ao
+              vivo, do forró ao samba. Dance a noite toda e experimente a
+              alegria da cultura local. Artesanato Local Não deixe de visitar as
+              feiras de artesanato, onde você pode comprar lembranças
+              autênticas, como rendas e objetos feitos à mão por artesãos
+              locais. Hospitalidade Alagoana A hospitalidade dos alagoanos é uma
+              característica marcante da região. Você será recebido com calor e
+              amizade em todos os lugares que visitar. Maceió é o lugar onde a
+              beleza natural encontra a cultura acolhedora, criando uma
+              experiência de viagem inesquecível. Reserve seu pacote de viagem
+              agora e esteja pronto para se encantar com as águas claras e as
+              maravilhas culturais de Maceió!
+            </p></strong>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Voltar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Natal -->
+    <div
+      class="modal fade"
+      id="modalNatal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="TituloModalLongoExemplo"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalLongoExemplo">
+              Informações Sobre a Viagem
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p><strong>
+              Descubra a Magia de Natal - O Paraíso do Nordeste Brasileiro!
+              Natal é um destino paradisíaco que combina praias deslumbrantes,
+              dunas de areia, cultura rica e aventuras emocionantes. Se você
+              está em busca de um local repleto de belezas naturais e
+              experiências inesquecíveis, Natal é o destino perfeito! Praias de
+              Areia Dourada As praias de Natal são conhecidas por sua areia
+              dourada e águas cristalinas. A Praia de Ponta Negra é um destaque,
+              com seu famoso Morro do Careca e uma atmosfera animada. Para um
+              cenário mais tranquilo, visite a Praia de Genipabu com suas dunas
+              de areia impressionantes. Dunas e Passeios de Buggy As dunas de
+              Genipabu são uma atração imperdível. Deslize pelas dunas em um
+              emocionante passeio de buggy e sinta a adrenalina. As opções de
+              aventura são infinitas! Cultura e Gastronomia Potiguar A cultura
+              em Natal é rica e diversificada. Explore o Centro de Turismo e as
+              feiras de artesanato local, onde você pode comprar lembranças
+              autênticas, como rendas e objetos feitos à mão. A culinária
+              potiguar é uma verdadeira festa para o paladar, com pratos de
+              frutos do mar, como o "camarão na moranga," sendo uma
+              especialidade. Parque das Dunas O Parque das Dunas é uma reserva
+              de Mata Atlântica no coração da cidade. Faça trilhas, observe a
+              flora e a fauna locais e conecte-se com a natureza. Lagoa de
+              Pitangui A Lagoa de Pitangui é um refúgio tranquilo para aqueles
+              que buscam relaxamento. Faça passeios de caiaque, stand-up paddle
+              ou simplesmente aproveite a serenidade do local. Vida Noturna
+              Vibrante Natal oferece uma animada vida noturna com bares,
+              restaurantes e casas de shows. Desfrute da música ao vivo e da
+              dança em locais como a Rua Chile, em Ponta Negra. Natal é o lugar
+              onde a beleza natural encontra a cultura rica, criando uma
+              experiência de viagem única. Reserve seu pacote de viagem agora e
+              esteja pronto para se encantar com as maravilhas naturais e
+              culturais de Natal!
+            </p></strong>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Voltar
+            </button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>JFK - Todos os Direitos Reservados</footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

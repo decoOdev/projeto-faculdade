@@ -1,74 +1,93 @@
-/* Estilos para o corpo da página */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0;
 }
 
-/* Estilos para o formulário */
+
 form {
     background-color: #fff;
-    max-width: 300px;
-    margin: 0 auto;
+    max-width: 700px; 
     padding: 20px;
+    margin: 0 auto; 
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilos para o cabeçalho do formulário */
+
+.form-group label {
+    font-weight: bold; 
+}
+
+
+
 h1 {
     color: #333;
+    text-align: center;
 }
 
-/* Estilos para os campos do formulário */
-.form-group {
-    margin-bottom: 10px;
-    text-align: left;
-}
 
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.input-group {
-    margin-bottom: 15px;
-}
-
-input.form-control {
-    width: 100%;
-    padding: 2px;
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 95%;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
     font-size: 16px;
-    margin-bottom: 10px; /* Adicione margem inferior para separar os campos */
+    
+    margin-bottom: 30px; 
 }
 
-/* Estilos para os botões */
-input[type="submit"] {
-    background-color:tomato;
-    color: white;
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px; 
+}
+
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 10px; 
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: tomato;
+    color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 3px;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 10px; /* Adicione margem direita para separar os botões */
-    margin-bottom: 10px; /* Adicione margem inferior para separar os botões */
+    margin-right: 10px;
 }
 
-input[type="submit"]:hover {
-    background-color:red
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: red;
 }
 
-/* Estilos para o link de criação de conta */
-p a {
-    text-decoration: none;
-    color: #007bff;
+
+#password {
+    width: 95%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-p a:hover {
-    text-decoration: underline;
-}
+
+
+
+
+
+
